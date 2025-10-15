@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #ffffff;
+  --section-bg: #f5f5f5;
+  --text-color: #0d0d0d;
+  --text-color-secondary: #555555;
+  --accent: #6d5dfc;
+  --card-bg: #ffffff;
+  --menu-bg-color: #ffffff;
+  --border-radius: 14px;
+  --transition: all 0.3s ease;
+}
+
+[data-theme='dark'] {
+  --bg-color: #0d0d0d;
+  --section-bg: #181818;
+  --text-color: #ffffff;
+  --text-color-secondary: #cccccc;
+  --accent: #6d5dfc;
+  --card-bg: #1a1a1a;
+  --menu-bg-color: #1a1a1a;
+  --border-radius: 14px;
+  --transition: all 0.3s ease;
+}

@@ -1,0 +1,56 @@
+.about {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 100px 12%;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--accent);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.content p {
+  margin-bottom: 1.4rem;
+}
+
+.content span {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.highlights {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 1.5rem 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 12px rgba(109, 93, 252, 0.2);
+  transition: var(--transition);
+  width: 260px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(109, 93, 252, 0.4);
+}
+
+.card h3 {
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
