@@ -21,7 +21,7 @@ export default function Projects() {
       title: "Privoraa — Your Private AI Companion",
       period: "June 2025 - July 2025",
       type: "Frontend (React.js, Vanilla CSS)",
-      desc: `Built the responsive frontend UI for Privoraa focusing on accessible, device-agnostic interfaces and polished micro-interactions.`,
+      desc: `Built the Responsive Frontend UI for Privoraa Focusing on Accessible, Device-Agnostic Interfaces and Polished Micro-Interactions.`,
       tech: ["React.js", "Vite", "Vanilla CSS", "Framer Motion", "Responsive UI"],
       live: "https://privoraa.vercel.app/",
       repo: null,
@@ -31,7 +31,7 @@ export default function Projects() {
       title: "MBSE-API — Model-Based Systems Engineering API",
       period: "July 2025 - Ongoing",
       type: "Backend (Java, Spring Boot)",
-      desc: `Engineered a RESTful Spring Boot service to manage system models & function blocks. Integrated JPA + MySQL, documented endpoints with Swagger.`,
+      desc: `Engineered a RESTful Spring Boot Service to Manage System Models & Function Blocks. Integrated JPA + MySQL, Documented Endpoints with Swagger.`,
       tech: ["Java", "Spring Boot", "JPA", "MySQL", "Swagger", "Postman"],
       live: null,
       repo: "https://github.com/Shivansh23-code/MBSE-API",
@@ -52,7 +52,7 @@ export default function Projects() {
         Selected Projects
       </motion.h2>
       <motion.p className={styles.lead} variants={item}>
-        A curated selection highlighting frontend craft (UI/UX) and backend engineering (APIs & data models).
+        A Curated Selection Highlighting Frontend Craft <b>(UI/UX)</b> and Backend Engineering <b>(APIs & Data Models)</b>.
       </motion.p>
 
       <motion.div className={styles.grid} variants={container}>

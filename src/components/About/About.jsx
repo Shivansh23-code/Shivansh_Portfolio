@@ -32,23 +32,23 @@ export default function About() {
 
         <motion.div className={styles.content}>
           <motion.p variants={item}>
-            I’m <span>Shivansh Tiwari</span>, a passionate <b> Software Developer </b> 
-            with expertise in <b>React.js, Spring Boot, and scalable REST APIs</b>.
+            I’m <span>Shivansh Tiwari</span>, a Passionate <b> Software Developer </b> 
+            with Expertise in <b>React.js, Spring Boot</b>, and <b>Scalable REST APIs</b>.
           </motion.p>
 
           <motion.p variants={item}>
-            Currently, I’m interning at <b>The Developer's Arena</b>, working as 
-            full-stack developer.
+            Currently, I’m Interning at <b>The Developer's Arena</b>, Working as  
+            <b> Full-Stack Developer</b>.
           </motion.p>
 
           <motion.p variants={item}>
-            Recently, I have interned at <b>Zidio Development</b>, worked on a 
-            full-stack <b>Job Board Application</b>.
+            Recently, I have Interned at <b>Zidio Development</b>, Worked on a 
+            Full-Stack <b>Job Board Application</b>.
           </motion.p>
 
           <motion.p variants={item}>
-            Beyond coding, I love exploring automation, AI-driven systems, and 
-            creative UI/UX patterns.
+            Beyond Coding, I Love <b>Exploring Automation</b>, <b>AI-Driven Systems</b>, and 
+            Creative <b>UI/UX</b> Patterns.
           </motion.p>
         </motion.div>
 

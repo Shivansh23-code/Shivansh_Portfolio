@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -13,9 +15,11 @@
 }
 
 .logo {
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: var(--accent);
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
   z-index: 1200;
   position: relative;
 }
@@ -65,9 +69,6 @@
   position: relative;
 }
 
-/* Original navbar styles remain unchanged */
-
-/* Mobile Styles */
 @media (max-width: 768px) {
   .links {
     position: fixed;
@@ -108,13 +109,12 @@
     color: var(--text-color);
   }
 
-  /* Mobile Overlay Menu */
   .mobileOverlay {
-    display: flex; /* visible only on mobile */
+    display: flex;
     flex-direction: column;
     position: fixed;
     top: 0;
-    right: -100%; /* start hidden */
+    right: -100%;
     width: 70%;
     height: 100%;
     background-color: var(--menu-bg-color);
@@ -153,7 +153,6 @@
   }
 }
 
-/* Ensure overlay is hidden on larger screens */
 @media (min-width: 769px) {
   .mobileOverlay {
     display: none !important;

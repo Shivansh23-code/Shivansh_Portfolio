@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Experience.module.css";
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
@@ -9,21 +8,21 @@ export default function Experience() {
       company: "The Developer's Arena",
       role: "Java Full Stack Developer Intern",
       duration: "Oct 2025 – Present",
-      description: `Working on a full-stack web application using Java, Spring Boot, JPA, Hibernate, MySQL/MongoDB, and React.js.`,
+      description: `Working on a Full-Stack Web Application using Java, Spring Boot, JPA, Hibernate, MySQL/MongoDB, and React.js.`,
       stack: ["Java", "Spring Boot", "React.js", "MySQL/MongoDB", "REST APIs", "JPA", "Hibernate"],
     },
     {
       company: "Zidio Development",
       role: "Java Full Stack Developer Intern",
       duration: "July 2025 – Oct 2025",
-      description: `Worked on a full-stack Job Portal web application using Java, Spring Boot, JPA, Hibernate, MySQL, and React.js.`,
+      description: `Worked on a Full-Stack Job Portal Web Application using Java, Spring Boot, JPA, Hibernate, MySQL, and React.js.`,
       stack: ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs", "JPA", "Hibernate"],
     },
     {
       company: "Techplement",
       role: "Frontend Developer Intern",
       duration: "May 2025 – June 2025",
-      description: `Developed a course-selling platform and multitasking calculator (Scientific & BMI) using HTML, CSS, and JavaScript.`,
+      description: `Developed a Course-Selling Platform and Multitasking Calculator (Scientific & BMI) using HTML, CSS, and JavaScript.`,
       stack: ["HTML", "CSS", "JavaScript", "UI Design", "React.js"],
     },
   ];

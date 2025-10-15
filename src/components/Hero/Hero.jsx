@@ -11,6 +11,7 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
       >
         Hi, I’m <span className={styles.accent}>Shivansh Tiwari</span>
+        
       </motion.h1>
 
       <motion.p
@@ -19,7 +20,7 @@ export default function Hero() {
         transition={{ delay: 0.3 }}
         className={styles.subtext}
       >
-        Software Developer specializing in React.js, Spring Boot & Scalable APIs.
+        <b>Software Developer</b> Specializing in <b>React.js</b>, <b>Spring Boot</b> & <b>Scalable REST APIs</b>.
       </motion.p>
 
       <motion.a

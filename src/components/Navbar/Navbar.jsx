@@ -10,15 +10,13 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  // Detect mobile screen
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
-    handleResize(); // initial check
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Highlight active section
   useEffect(() => {
     const handleScroll = () => {
       let current = "home";
@@ -31,12 +29,10 @@ export default function Navbar() {
       });
       setActive(current);
     };
-    
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Lock scroll when menu is open
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "auto";
   }, [menuOpen]);
@@ -52,7 +48,6 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.logo}>Shivansh Tiwari</div>
 
-      {/* Original Links */}
       <ul className={`${styles.links} ${menuOpen ? styles.open : ""}`}>
         {sections.map((item) => (
           <li key={item}>
@@ -67,7 +62,6 @@ export default function Navbar() {
         ))}
       </ul>
 
-      {/* Actions */}
       <div className={styles.actions}>
         <button onClick={toggleTheme} className={styles.toggle}>
           {theme === "dark" ? "🌙" : "☀️"}
@@ -84,7 +78,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Overlay Menu: Render only on mobile */}
       {isMobile && (
         <ul className={`${styles.mobileOverlay} ${menuOpen ? styles.mobileOverlayOpen : ""}`}>
           {sections.map((item, index) => (
