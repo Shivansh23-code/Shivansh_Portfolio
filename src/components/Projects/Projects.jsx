@@ -25,7 +25,7 @@ export default function Projects() {
       tech: ["React.js", "Vite", "Vanilla CSS", "Framer Motion", "Responsive UI"],
       live: "https://privoraa.vercel.app/",
       repo: null,
-      screenshot: "/assets/privoraa-hero.png",
+      screenshot: "/placeholder.jpg",
     },
     {
       title: "MBSE-API — Model-Based Systems Engineering API",
@@ -35,7 +35,7 @@ export default function Projects() {
       tech: ["Java", "Spring Boot", "JPA", "MySQL", "Swagger", "Postman"],
       live: null,
       repo: "https://github.com/Shivansh23-code/MBSE-API",
-      screenshot: "/assets/mbse-api-swagger.png",
+      screenshot: "/placeholder.jpg",
     },
   ];
 
