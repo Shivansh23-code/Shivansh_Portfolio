@@ -16,7 +16,7 @@ export default function Footer() {
 
       <motion.div className={styles.socials} variants={item}>
         <a href="https://github.com/Shivansh23-code" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
-        <a href="https://linkedin.com/in/shivanshtiwari" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
+        <a href="https://www.linkedin.com/in/shivansh-tiwari-53485327bs" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
         <a href="mailto:shivanshtiwari887@gmail.com"><Mail size={20} /></a>
       </motion.div>
 
